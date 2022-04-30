@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  background-color: #778899;
+  height: 350px;
+  width: 100%;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+}
+
+@media (max-width: 1199px) {
+  .contact form {
+    width: 45%;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact form {
+    width: 55%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact form {
+    width: 65%;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact form {
+    width: 65%;
+  }
+}
+
+.contact form .companyPosition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .contact form .companyPosition {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contact form .companyPosition input {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .contact form .companyPosition input {
+    width: calc(100% - 10px);
+  }
+}
+
+.contact form input {
+  margin: 5px;
+  border: solid 3px transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  height: 45px;
+}
+
+.contact form textarea {
+  margin: 5px;
+  border: solid 3px transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  height: 100px;
+}
+
+.contact form input:hover, .contact form textarea:hover {
+  border: solid 3px lightpink;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.contact form input:focus, .contact form textarea:focus {
+  outline: none;
+  color: rebeccapurple;
+  background-color: lightpink;
+  font-size: 18px;
+}
+
+.contact form .send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2C3843;
+}
+
+.contact form .send:hover {
+  background-color: lightpink;
+}
+/*# sourceMappingURL=contact.css.map */

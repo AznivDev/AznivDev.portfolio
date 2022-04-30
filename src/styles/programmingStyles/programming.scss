@@ -1,0 +1,49 @@
+@import "../variables/veriables.scss";
+@import "../mixins/mixins.scss";
+
+.programming-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: $componentsTop;
+
+
+    .programming-tityle {
+        @include tytleStyles;
+    }
+
+    .programming-list {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+        align-items: center; 
+        height: auto;  
+    }
+
+    .programming-item{
+        border: 1px solid #808080;
+        border-radius: 200px;
+        width: 130px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        box-shadow: 3px 5px #808080;
+        transition: transform .9s;
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: $pinkColor;
+            opacity: 0.7;
+        } 
+    }  
+    
+    .programming-item p{
+        font-size: 20px;
+    }
+}
+
+

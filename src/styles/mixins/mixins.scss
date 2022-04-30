@@ -1,0 +1,34 @@
+@mixin inputTextarea($height) {
+    margin: 5px;
+    border: solid 3px transparent;
+    border-radius: 4px;
+    font-size: $fontSize;
+    transition: 250ms;
+    height: $height;
+}
+
+@mixin socialLinksStyles($color) {
+    font-size: 50px;
+    margin: 4px;
+    transition: transform .9s;
+    color: $color;
+
+    @media (max-width: 576px) {
+        font-size: 30px;
+    }
+}
+
+@mixin tytleStyles {
+    font-family: $fontFamilyTitle;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+@mixin itemsColor {
+    background-color: $pinkColor;
+    opacity: 85%;
+}

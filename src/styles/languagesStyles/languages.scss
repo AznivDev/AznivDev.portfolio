@@ -1,0 +1,43 @@
+@import "../variables/veriables.scss";
+@import "../mixins/mixins.scss";
+
+.languageContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: $componentsTop;
+    margin-bottom: 20px;
+
+    .languagesTitle {
+        @include tytleStyles;
+    }
+
+    .languageList {
+        list-style: none;
+        width: 80%;
+    }
+    
+    .languageItem {
+        height: $itemsHeight;
+        border: solid 2px whitesmoke;
+        background-color: $lightBlue;
+        margin: 3px; 
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 2px 5px 10px 1px $blueColor;
+
+        @media (max-width: 676px) {
+            height: calc($itemsHeight + 5px);
+        }
+        
+        &:hover{
+            @include itemsColor;
+        }
+    }
+}

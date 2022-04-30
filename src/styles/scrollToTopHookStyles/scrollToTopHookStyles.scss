@@ -1,0 +1,26 @@
+@import "../variables/veriables.scss";
+
+.scrollToTop {
+    position: fixed;
+    bottom: 12px;
+    left: calc(100% - 40px - 15px);
+    border-radius: 100%;
+    z-index: 11;
+
+    .topIcon {
+        font-size: 40px;
+        color: $pinkColor;
+        cursor: pointer;
+        animation: scrollTop 1s alternate ease infinite;
+    }
+}
+
+@keyframes scrollTop{
+    from {
+        transform: translateY(5px);
+    } 
+    
+    to {
+        transform: translateY(-1px);
+    }
+}

@@ -1,0 +1,58 @@
+@import "../mixins/mixins.scss";
+
+.home {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: baseline;
+
+    img {
+        width: 50%;
+
+        @media (max-width: 767px) {
+            width: 60%;
+        }
+        
+        @media (max-width: 576px) {
+            width: 70%;
+        }
+    }
+
+    .socialLinks {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        padding-right: 50px;
+        margin-bottom: 5px;
+        margin-top: auto;
+
+        @media (max-width: 767px) {
+            padding-right: 40px;
+            width: 40%;
+        }
+
+        @media (max-width: 576px) {
+            padding-right: 20px;
+            width: 35%;
+        }
+
+        @media (max-width: 312px) {
+            width: 30%;
+        }
+        
+        .linkedin {
+            @include socialLinksStyles(#0A66C2);
+
+            &:hover {
+                transform: scale(1.4);
+            }             
+        }
+
+        .github {
+            @include socialLinksStyles(#BEBFC1);
+
+            &:hover {
+                transform: scale(1.4);
+            }
+        }
+    }
+}
