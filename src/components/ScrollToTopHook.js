@@ -2,21 +2,23 @@ import {useState, useEffect} from "react";
 import "../styles/scrollToTopHookStyles/scrollToTopHookStyles.scss";
 import {FaArrowCircleUp} from "react-icons/fa";
 
-
 const ScrollToTopHook = () => {
   
     const [visible, setVisible] = useState();
     const [scrollPosition, setScrollPosition] = useState(0);
     
+    // Fix the final position. 
     const scrollToTop = () => {
         window.scrollTo({top: 0, behavior: "smooth"})
     }
 
+    // Fix the final position.
     const handleScroll = () => {
       const position = window.pageYOffset;
       setScrollPosition(position);
     };
 
+    // Scroll up when the scroll position is greater than 400px.
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
 

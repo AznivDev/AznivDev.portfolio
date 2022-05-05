@@ -17,8 +17,9 @@ const Contact = () => {
         };
 
         return (
-          <div className="contact">
-             <form ref={form} onSubmit={sendEmail}>
+          <div className="contact"> 
+             {/* Send message to gmail. */}
+             <form ref={form} onSubmit={sendEmail}>    
                 <p className="contactTitle" >Contact</p>
                 <span className = "companyPosition">
                    <input type="text" name="company_name"  placeholder="Company name" />
@@ -28,9 +29,9 @@ const Contact = () => {
                 <textarea name="message" placeholder="Write message..." />
                 <input className="send" type="submit" value="Send" />
              </form>  
-             <div className="grcode">
-                 <QRCode value="https://www.linkedin.com/in/azniv-saroyan/"
-                         size= {100} 
+             <div className="qrcode">
+                 <QRCode value="https://www.linkedin.com/in/azniv-saroyan/"  // QR code to linkedin.
+                         size= {150} 
                          fgColor= {"#0A66C2"}
                   />
              </div>                                  

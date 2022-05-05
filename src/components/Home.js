@@ -7,7 +7,8 @@ const Home = () => {
     return (
         <div className="home">
             <img src = {require("../images/homeImage.jpg")}/>
-            <div className="socialLinks">
+            {/* Social links to Linkedin and Github.*/}
+            <div className="socialLinks">  
                 <a href="https://github.com/AznivDev" target="blank"><FaGithub className="github"/></a>
                 <a href="https://www.linkedin.com/in/azniv-saroyan/" target="_blank"><FaLinkedin className="linkedin"/></a>        
             </div>      

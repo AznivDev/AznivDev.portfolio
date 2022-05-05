@@ -9,6 +9,10 @@
     align-items: center;
     margin-top: $componentsTop;
     margin-bottom: 20px;
+    animation-name: leftToRight;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2.3s;
 
     .languagesTitle {
         @include tytleStyles;
@@ -40,4 +44,9 @@
             @include itemsColor;
         }
     }
+}
+
+@keyframes leftToRight{
+    0% { display: none; visibility: hidden; }
+    100% { display: block; visibility: block;  }
 }

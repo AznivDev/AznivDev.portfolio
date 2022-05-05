@@ -7,12 +7,12 @@
   font-family: Montserrat, sans-serif;
 }
 
+// Menu styles.
 .navbar {
     position: sticky;
     top: 0px;
     height: 70px;
     background-color:  lightslategray;
-    border-bottom: 1px solid $whiteColor;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,6 +116,7 @@
     } 
 }
 
+// "Languages" and "Experience" components styles.
 .langExpContainer {
     width: 80%;
     margin: 0 auto;

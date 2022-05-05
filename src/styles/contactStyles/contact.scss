@@ -16,6 +16,7 @@
         height: 620px;
     }
 
+    // "Send message" form styling.
     form {
         display: flex;
         flex-direction: column;
@@ -91,8 +92,9 @@
             }
         }
     }
-
-    .grcode {
+    
+    // QR code styling.
+    .qrcode {
         padding-left: 100px;
         padding-top: 100px;
 

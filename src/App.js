@@ -16,7 +16,7 @@ function App() {
     const experienceRef = useRef(null);
     const contactMeRef = useRef(null);
 
-    
+    // menu items location 
     const getHome = () => {
       window.scrollTo({
         top: homeRef.current.offsetTop,
@@ -65,10 +65,11 @@ function App() {
     }
 
   return (
-    <div>
+      <div>
            <nav className = 'navbar'>
              <span className = "navbarLogo"> A. S.</span>
 
+            {/* Menu conversion depending on the size of the device. */}
             { menuClicked ? (
                 <FiXCircle size={25} className="navbarMenu" onClick={toggleMenuClicked}/>
                 ) : (
