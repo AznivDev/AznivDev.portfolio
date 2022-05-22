@@ -67,7 +67,7 @@ function App() {
   return (
       <div>
            <nav className = 'navbar'>
-             <span className = "navbarLogo"> A. S.</span>
+             <span className = "navbarLogo" onClick={getHome}> A. S.</span>
 
             {/* Menu conversion depending on the size of the device. */}
             { menuClicked ? (
