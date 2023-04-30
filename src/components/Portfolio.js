@@ -45,6 +45,18 @@ const Portfolio = () => {
                     <a href="https://cocktails-from-api.vercel.app/" target="blank"><FcLink/> Cocktails</a>
                 </li>
             </ul>
+            <p className="portfolio-tityle">My big full stack projects</p>
+            <ul className="portfolio-list">
+                <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://github.com/AznivDev/Todo-list" target="blank"><FcLink/> To-do list</a>
+                </li>
+                <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://github.com/AznivDev/Cooking-blog" target="blank"><FcLink/> Cooking blog</a>
+                </li>
+                <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://github.com/AznivDev/inventorization-asset-management" target="blank"><FcLink/> Inventorization asset management (teamwork)</a>
+                </li>
+            </ul>
         </div>
     );
 }
