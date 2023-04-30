@@ -15,10 +15,10 @@ const Portfolio = () => {
             <p className="portfolio-tityle">My projects</p>
             <ul className="portfolio-list">
                 <li className="portfolio-item" data-aos="zoom-out">
-                    <a href="https://burger-fabuji7y0-aznivdev.vercel.app/" target="blank">Make your burger <FcLink/></a>
+                    <a href="https://burger-fabuji7y0-aznivdev.vercel.app/" target="blank"><FcLink/> Make your burger</a>
                 </li>
                 <li className="portfolio-item" data-aos="zoom-out">
-                    <a href="https://cocktails-from-api.vercel.app/" target="blank">Cocktails <FcLink/></a>
+                    <a href="https://cocktails-from-api.vercel.app/" target="blank"><FcLink/> Cocktails</a>
                 </li>
             </ul>
         </div>
