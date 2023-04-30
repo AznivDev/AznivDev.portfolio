@@ -27,7 +27,7 @@ const Programming = () => {
                 <ProgrammingSkill skill="Java core" />
                 <ProgrammingSkill skill="OOP" />
                 <ProgrammingSkill skill="Algorithms" />
-                <ProgrammingSkill skill="REST API" />
+                <ProgrammingSkill skill="HTTP" />
                 <ProgrammingSkill skill="Adaptive Layout" />
                 <ProgrammingSkill skill="Unit testing(Jest)" />
                 <ProgrammingSkill skill="Git" />
@@ -36,6 +36,7 @@ const Programming = () => {
                 <ProgrammingSkill skill="GitHub" />
                 <ProgrammingSkill skill="Postman" />
                 <ProgrammingSkill skill="VS Code" />
+                <ProgrammingSkill skill="Linux" />
                 <ProgrammingSkill skill="DevOps essentials" />
                 <ProgrammingSkill skill="Soft Skills" />
                 <ProgrammingSkill skill="Design Patterns" />
