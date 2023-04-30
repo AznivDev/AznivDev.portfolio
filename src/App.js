@@ -4,6 +4,7 @@ import { FiMenu, FiXCircle } from 'react-icons/fi'
 import Home from './components/Home';
 import Programming from './components/Programming';
 import Certificates from './components/Certificates';
+import Portfolio from './components/Portfolio';
 import Languages from './components/Languages';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
@@ -12,6 +13,7 @@ function App() {
     const homeRef = useRef(null);
     const programmingRef = useRef(null);
     const certificatesRef = useRef(null);
+    const portfolioRef = useRef(null);
     const languagesRef = useRef(null);
     const experienceRef = useRef(null);
     const contactMeRef = useRef(null);
@@ -34,6 +36,13 @@ function App() {
     const getCertificates = () => {
       window.scrollTo({
         top: certificatesRef.current.offsetTop,
+        behavior: "smooth"
+      })
+    }
+  
+    const getPortfolio = () => {
+      window.scrollTo({
+        top: portfolioRef.current.offsetTop,
         behavior: "smooth"
       })
     }
@@ -90,6 +99,9 @@ function App() {
                 <li className = 'navbarItem' onClick = {getCertificates}>
                     <p  className = 'navbarLink' > Certificates</p>
                 </li>
+                <li className = 'navbarItem' onClick = {getPortfolio}>
+                    <p  className = 'navbarLink' > Portfolio</p>
+                </li>
                 <li className = 'navbarItem' onClick = {getLanguages}>
                     <p className = 'navbarLink' >Languages</p>
                 </li>
@@ -114,6 +126,11 @@ function App() {
             <div ref={certificatesRef}>
               <Certificates/>
             </div>
+        
+            <div ref={portfolioRef}>
+              <Portfolio/>
+            </div>
+
 
             <div className = "langExpContainer">
               <div ref={languagesRef} className="languagesGlobalContainer">
