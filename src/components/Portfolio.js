@@ -18,6 +18,12 @@ const Portfolio = () => {
                     <a href="https://burger-fabuji7y0-aznivdev.vercel.app/" target="blank"><FcLink/> Make your burger</a>
                 </li>
                 <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://timer-n3kh-9x1qj8evo-aznivdev.vercel.app/" target="blank"><FcLink/> Coffee shop</a>
+                </li>
+                <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://tic-tac-toe-aznivdev.vercel.app/" target="blank"><FcLink/> Game Tic Tac Toe</a>
+                </li>
+                <li className="portfolio-item" data-aos="zoom-out">
                     <a href="https://google-translate-beta.vercel.app/" target="blank"><FcLink/> Google translate</a>
                 </li>
                 <li className="portfolio-item" data-aos="zoom-out">
