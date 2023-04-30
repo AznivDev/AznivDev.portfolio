@@ -7,20 +7,17 @@
     flex-direction: column;
     margin: 0 auto;
     margin-top: $componentsTop;
-
     .programming-tityle {
         @include tytleStyles;
     }
-
     .programming-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly; 
-        align-items: center; 
-        height: auto; 
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
     }
-
-    .programming-item{
+    .programming-item {
         border: 1px solid #808080;
         border-radius: 10px 50px 5px 50px;
         width: 150px;
@@ -32,7 +29,6 @@
         box-shadow: 3px 5px #808080;
         transition: transform .9s;
         position: relative;
-
         .showItem {
             position: absolute;
             background-color: $pinkColor;
@@ -41,12 +37,10 @@
             width: 0;
             transition: transform .9s;
         }
-
         &:hover {
             transform: scale(1.2);
             border-radius: 10px 50px 5px 50px;
             background-color: $lightBlue;
-
             .showItem {
                 background-color: $lightBlue;
                 color: $fontColor;
@@ -59,11 +53,10 @@
                 align-items: center;
                 font-size: 24px;
                 opacity: 0.9;
-            }  
-        } 
-    }  
-    
-    .programming-item p{
+            }
+        }
+    }
+    .programming-item p {
         font-size: 14px;
         text-align: center;
     }

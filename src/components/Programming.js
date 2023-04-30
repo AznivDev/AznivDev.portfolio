@@ -1,9 +1,8 @@
 import React from 'react';
 import '../styles/programmingStyles/programming.scss';
-import AOS from "aos";
-import { FcApproval } from "react-icons/fc";
-import "aos/dist/aos.css";
 import ProgrammingSkill from "./ProgrammingSkill";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Programming = () => {
 

@@ -9,13 +9,11 @@
     height: 400px;
     width: 100%;
     margin-top: $componentsTop;
-
     @media (max-width: 800px) {
         display: flex;
         flex-direction: column;
         height: 680px;
     }
-
     // "Send message" form styling.
     form {
         display: flex;
@@ -23,87 +21,69 @@
         justify-content: center;
         width: 40%;
         margin-bottom: 25px;
-
         @media (max-width: 1199px) {
             width: 45%;
         }
-
         @media (max-width: 991px) {
             width: 55%;
         }
-        
         @media (max-width: 767px) {
             width: 65%;
         }
-        
         @media (max-width: 576px) {
             width: 65%;
         }
-        
-        .contactTitle{
+        .contactTitle {
             @include tytleStyles;
             color: $whiteColor;
         }
-
         .companyPosition {
             display: flex;
-
             @media (max-width: 767px) {
                 display: flex;
                 flex-direction: column;
             }
-
             input {
                 width: 50%;
-                
                 @media (max-width: 767px) {
-                    width: calc(100% - 10px) ;
+                    width: calc(100% - 10px);
                 }
             }
         }
-
         input {
             @include inputTextarea($itemsHeight);
         }
-
         textarea {
             @include inputTextarea(100px);
         }
-
-        input:hover,  textarea:hover {
+        input:hover,
+        textarea:hover {
             @include itemsColor;
         }
-
-        input:focus, textarea:focus {
+        input:focus,
+        textarea:focus {
             outline: none;
             color: rebeccapurple;
             background-color: $pinkColor;
             font-size: $fontSizeActiv;
         }
-     
         .send {
             display: flex;
             justify-content: center;
             align-items: center;
             color: $fontColor;
-        
             &:hover {
-               background-color: $pinkColor;
+                background-color: $pinkColor;
             }
         }
     }
-    
     // QR code styling.
     .qrcode {
         padding-left: 100px;
         padding-top: 100px;
-
         @media (max-width: 800px) {
             padding-left: 0px;
-            padding-top: 0px; 
+            padding-top: 0px;
         }
     }
 }
-
-
-

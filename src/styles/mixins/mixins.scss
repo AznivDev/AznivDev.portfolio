@@ -6,18 +6,15 @@
     transition: 250ms;
     height: $height;
 }
-
 @mixin socialLinksStyles($color) {
     font-size: 50px;
     margin: 4px;
     transition: transform .9s;
     color: $color;
-
     @media (max-width: 576px) {
         font-size: 30px;
     }
 }
-
 @mixin tytleStyles {
     font-family: $fontFamilyTitle;
     font-size: 50px;
@@ -31,7 +28,6 @@
         color: $whiteColor;
     }
 }
-
 @mixin itemsColor {
     background-color: $pinkColor;
     opacity: 85%;

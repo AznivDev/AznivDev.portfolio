@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/programmingStyles/programming.scss';
-import AOS from "aos";
 import { FcApproval } from "react-icons/fc";
-import "aos/dist/aos.css";
 
 function ProgrammingSkill(props) {
     return (

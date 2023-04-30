@@ -6,7 +6,6 @@
     left: calc(100% - 100px);
     border-radius: 100%;
     z-index: 11;
-
     .topIcon {
         font-size: 40px;
         color: $pinkColor;
@@ -14,12 +13,10 @@
         animation: scrollTop 1s alternate ease infinite;
     }
 }
-
-@keyframes scrollTop{
+@keyframes scrollTop {
     from {
         transform: translateY(5px);
-    } 
-    
+    }
     to {
         transform: translateY(-1px);
     }

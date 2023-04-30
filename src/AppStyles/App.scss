@@ -1,46 +1,40 @@
 @import "../styles/variables/veriables.scss";
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box; 
-  font-family: Montserrat, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
 }
-
 // Menu styles.
 .navbar {
     position: sticky;
     top: 0px;
     height: 70px;
-    background-color:  lightslategray;
+    background-color: lightslategray;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px 0px 50px;
     z-index: 5;
-
     .navbarLogo {
         color: $whiteColor;
         font-family: $fontFamilyTitle, cursive;
         font-size: 40px;
         cursor: pointer;
     }
-
     .navbarMenu {
         color: $lightBlue;
         display: none;
-
         @media screen and (max-width: 800px) {
             display: block;
         }
     }
-
     .navbarList {
-        display: flex; 
+        display: flex;
         justify-content: end;
         background-color: lightslategray;
         list-style: none;
-
         @media screen and (max-width: 800px) {
             padding: 0px;
             position: absolute;
@@ -53,11 +47,9 @@
             height: 200px;
             width: 70%;
             transition: all 0.5s ease;
-
             &--active {
                 left: 0%;
             }
-
             & .navbarItem {
                 width: 100%;
                 display: flex;
@@ -66,7 +58,6 @@
                 flex: 1;
             }
         }
-      
         .navbarLink {
             font-size: 20px;
             text-decoration: none;
@@ -79,17 +70,14 @@
             border-color: transparent;
             transition: 250ms;
             font-size: 18px;
-            cursor: pointer;   
-            
+            cursor: pointer;
             @media screen and (max-width: 1199px) {
                 padding: 5px;
                 font-size: 18px;
             }
-
             @media (max-width: 991px) {
                 font-size: 14px;
             }
-
             @media screen and (max-width: 800px) {
                 display: flex;
                 height: 100%;
@@ -100,23 +88,20 @@
                 border-width: 0px;
                 background-color: $blueColor;
                 opacity: 0.75;
-              
                 &:hover {
                     border-width: 0px;
                     opacity: 0.9;
                     border-top: 1px solid $whiteColor;
                     border-bottom: 1px solid $whiteColor;
-                } 
+                }
             }
-
             &:hover {
                 border-color: $whiteColor;
-                transition: 250ms; 
+                transition: 250ms;
             }
         }
-    } 
+    }
 }
-
 // "Languages" and "Experience" components styles.
 .langExpContainer {
     width: 80%;
@@ -124,43 +109,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     @media (max-width: 1199px) {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 }
-  
-.languagesGlobalContainer, .experienceGlobalContainer {
+.languagesGlobalContainer,
+.experienceGlobalContainer {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media (max-width: 767px) { 
-          width: 80%;
+    @media (max-width: 767px) {
+        width: 80%;
     }
-      
+
     @media (max-width: 450px) {
-          width: 90%;
+        width: 90%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
