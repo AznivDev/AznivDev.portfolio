@@ -24,6 +24,9 @@ const Portfolio = () => {
                     <a href="https://info-about-name-git-main-aznivdev.vercel.app/" target="blank"><FcLink/> Beers list and information from API</a>
                 </li>
                 <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://timer-ten-weld.vercel.app/" target="blank"><FcLink/> Timer</a>
+                </li>
+                <li className="portfolio-item" data-aos="zoom-out">
                     <a href="https://google-translate-a3v3.vercel.app/" target="blank"><FcLink/> Information about names</a>
                 </li>
                 <li className="portfolio-item" data-aos="zoom-out">
