@@ -1,8 +1,23 @@
 import React from 'react';
+import '../styles/portfolioStyles/portfolio.scss';
+import AOS from "aos";
+import { FcLink } from "react-icons/fc";
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
+
+    AOS.init({
+        duration: 2000
+    })
+
     return(
-        <div>    
+        <div className="portfolio-container">
+            <p className="portfolio-tityle">My projects</p>
+            <ul className="portfolio-list">
+                <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://burger-fabuji7y0-aznivdev.vercel.app/" target="blank">Make your burger <FcLink/></a>
+                </li>
+            </ul>
         </div>
     );
 }
