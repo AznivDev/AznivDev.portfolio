@@ -17,6 +17,9 @@ const Portfolio = () => {
                 <li className="portfolio-item" data-aos="zoom-out">
                     <a href="https://burger-fabuji7y0-aznivdev.vercel.app/" target="blank">Make your burger <FcLink/></a>
                 </li>
+                <li className="portfolio-item" data-aos="zoom-out">
+                    <a href="https://cocktails-from-api.vercel.app/" target="blank">Cocktails <FcLink/></a>
+                </li>
             </ul>
         </div>
     );
