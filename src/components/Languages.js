@@ -14,7 +14,7 @@ const Languages = () => {
             <p className="languagesTitle">Languages</p>
             <ul className = "languageList">
                 <li className = "languageItem">Armenian - mother language</li>
-                <li className = "languageItem">Russian - B2-A1</li>
+                <li className = "languageItem">Russian - B2</li>
                 <li className = "languageItem">English - B1</li>
             </ul>
         </div>

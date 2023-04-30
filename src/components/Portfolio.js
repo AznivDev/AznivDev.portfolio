@@ -54,7 +54,7 @@ const Portfolio = () => {
                     <a href="https://github.com/AznivDev/Cooking-blog" target="blank"><FcLink/> Cooking blog</a>
                 </li>
                 <li className="portfolio-item" data-aos="zoom-out">
-                    <a href="https://github.com/AznivDev/inventorization-asset-management" target="blank"><FcLink/> Inventorization asset management (teamwork)</a>
+                    <a href="https://github.com/AznivDev/inventorization-asset-management" target="blank"><FcLink/> Inventorization asset management program (teamwork)</a>
                 </li>
             </ul>
         </div>
