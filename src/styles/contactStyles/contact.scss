@@ -20,18 +20,24 @@
         flex-direction: column;
         justify-content: center;
         width: 40%;
-        margin-bottom: 25px;
-        @media (max-width: 1199px) {
+        margin-bottom: 25px;     
+        @media (max-width: 1285px) {
             width: 45%;
         }
-        @media (max-width: 991px) {
+        @media (max-width: 1105px) {
             width: 55%;
         }
-        @media (max-width: 767px) {
-            width: 65%;
+        @media (max-width: 910px) {
+            width: 60%;
         }
-        @media (max-width: 576px) {
-            width: 65%;
+        @media (max-width: 765px) {
+            width: 80%;
+        }
+        @media (max-width: 653px) {
+            width: 90%;
+        }
+        @media (max-width: 465px) {
+            width: 95%;
         }
         .contactTitle {
             @include tytleStyles;
@@ -39,13 +45,13 @@
         }
         .companyPosition {
             display: flex;
-            @media (max-width: 767px) {
+            @media (max-width: 910px) {
                 display: flex;
                 flex-direction: column;
             }
             input {
                 width: 50%;
-                @media (max-width: 767px) {
+                @media (max-width: 910px) {
                     width: calc(100% - 10px);
                 }
             }
