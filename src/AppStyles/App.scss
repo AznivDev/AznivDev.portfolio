@@ -6,7 +6,12 @@
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
 }
-// Menu styles.
+
+.wrapper {
+    margin: 0px;
+    padding: 0px;
+    // Menu styles.
+    }
 .navbar {
     position: sticky;
     top: 0px;
@@ -26,7 +31,7 @@
     .navbarMenu {
         color: $lightBlue;
         display: none;
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 935px) {
             display: block;
         }
     }
@@ -35,7 +40,7 @@
         justify-content: end;
         background-color: lightslategray;
         list-style: none;
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 935px) {
             padding: 0px;
             position: absolute;
             display: flex;
@@ -74,6 +79,10 @@
             @media screen and (max-width: 1199px) {
                 padding: 5px;
                 font-size: 18px;
+            }
+            @media screen and (max-width: 1067px) {
+                padding: 5px;
+                font-size: 16px;
             }
             @media (max-width: 991px) {
                 font-size: 14px;

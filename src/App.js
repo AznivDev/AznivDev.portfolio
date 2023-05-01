@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='wrapper'>
       <nav className='navbar'>
         <span className="navbarLogo" onClick={getHome}> A. S.</span>
 
@@ -105,7 +105,7 @@ function App() {
           </li>
         </ul>
       </nav>
-      <>
+      <div>
         <div ref={homeRef}>
           <Home />
         </div>
@@ -134,7 +134,7 @@ function App() {
         <div ref={contactMeRef}>
           <Contact />
         </div>
-      </>
+      </div>
     </div>
   )
 }

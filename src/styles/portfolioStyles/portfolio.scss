@@ -2,7 +2,7 @@
 @import "../mixins/mixins.scss";
 
 .portfolio-container {
-    width: 70%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -19,11 +19,11 @@
     .portfolio-item {
         border: none;
         width: 100%;
-        height: 50px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 5px;
+        gap: 50px;
         transition: transform .9s;
         font-size: 18px;
         a {
@@ -33,6 +33,9 @@
             text-align: center;
             svg {
                 vertical-align: middle;
+            }
+            p {
+                font-size: 25px;
             }
         }
     }
