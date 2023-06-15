@@ -2,7 +2,7 @@ import React from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import '../styles/portfolioStyles/portfolio.scss';
-import { FcLink } from "react-icons/fc";
+import { AiOutlineLink } from "react-icons/ai";
 
 function PortfolioItem(props) {
     AOS.init({
@@ -12,7 +12,7 @@ function PortfolioItem(props) {
         <div className="portfolio-item" data-aos="zoom-in">
             <a
                 href={props.itemLink}
-                target="blank"> <FcLink /> {props.itemTitle}
+                target="blank"> <AiOutlineLink /> {props.itemTitle}
             </a>
         </div>
     );
