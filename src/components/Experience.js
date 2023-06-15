@@ -10,7 +10,7 @@ const Experience = () => {
     });
 
     return (
-        <div className = "experienceContainer" data-aos = "fade-right">
+        <div className = "experienceContainer" data-aos="zoom-in">
             <p className="experienceTitle">Experience</p>
             <ul className = "experienceList">
                 <li className = "experienceItem">Zvartnots airports - phone number seller</li>

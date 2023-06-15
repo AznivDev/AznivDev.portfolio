@@ -1,15 +1,9 @@
 import React from 'react';
 import '../styles/portfolioStyles/portfolio.scss';
 import PortfolioItem from './PortfolioItem';
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Portfolio = () => {
-
-    AOS.init({
-        duration: 2000
-    })
-
+    
     return (
         <div className="portfolio-container">
             <p className="portfolio-tityle">My projects</p>
@@ -18,28 +12,24 @@ const Portfolio = () => {
                 itemTitle="Make your burger"
             />
             <PortfolioItem
-                itemLink="https://percentage-calculator-phi.vercel.app/"
-                itemTitle="Calculator"
+                itemLink="https://tic-tac-toe-aznivdev.vercel.app/"
+                itemTitle="Game Tic Tac Toe"
             />
             <PortfolioItem
                 itemLink="https://timer-n3kh-9x1qj8evo-aznivdev.vercel.app/"
                 itemTitle="Coffee shop"
             />
             <PortfolioItem
-                itemLink="https://tic-tac-toe-aznivdev.vercel.app/"
-                itemTitle="Game Tic Tac Toe"
-            />
-            <PortfolioItem
                 itemLink="https://google-translate-beta.vercel.app/"
                 itemTitle="Google translate"
             />
             <PortfolioItem
-                itemLink="https://info-about-name-git-main-aznivdev.vercel.app/"
-                itemTitle="Beers list and information from API"
-            />
-            <PortfolioItem
                 itemLink="https://timer-ten-weld.vercel.app/"
                 itemTitle="Timer"
+            />
+            <PortfolioItem
+                itemLink="https://percentage-calculator-phi.vercel.app/"
+                itemTitle="Calculator"
             />
             <PortfolioItem
                 itemLink="https://tic-tac-toe-fj24.vercel.app/"
@@ -52,6 +42,10 @@ const Portfolio = () => {
             <PortfolioItem
                 itemLink="https://cocktails-from-api.vercel.app/"
                 itemTitle="Cocktails"
+            />
+            <PortfolioItem
+                itemLink="https://info-about-name-git-main-aznivdev.vercel.app/"
+                itemTitle="Beers list and information from API"
             />
             <p className="portfolio-tityle">My big full stack projects</p>
             <PortfolioItem

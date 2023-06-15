@@ -10,7 +10,7 @@ const Languages = () => {
     })
 
     return (
-        <div className="languageContainer" data-aos='fade-right'>
+        <div className="languageContainer" data-aos="zoom-in">
             <p className="languagesTitle">Languages</p>
             <ul className="languageList">
                 <li className="languageItem">Armenian - mother language</li>
